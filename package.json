@@ -1,0 +1,44 @@
+{
+  "name": "site-speed-check",
+  "version": "1.0.0",
+  "description": "Ask Google PageSpeed Insights how fast a page opens on a phone and get the score, real-user Core Web Vitals and the three biggest wins in plain words. Made by Novu Web Solutions, novu.ee",
+  "type": "module",
+  "main": "site-speed-check.mjs",
+  "exports": {
+    ".": "./site-speed-check.mjs"
+  },
+  "bin": {
+    "site-speed-check": "cli.mjs"
+  },
+  "files": [
+    "site-speed-check.mjs",
+    "cli.mjs",
+    "worker.mjs",
+    "wrangler.example.jsonc"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "pagespeed",
+    "core-web-vitals",
+    "lighthouse",
+    "performance",
+    "crux",
+    "cloudflare-workers",
+    "estonia"
+  ],
+  "homepage": "https://novu.ee/tooriistad/kiiruse-test/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/novuwebsolutions/site-speed-check.git"
+  },
+  "bugs": {
+    "url": "https://github.com/novuwebsolutions/site-speed-check/issues"
+  },
+  "author": "Novu Web Solutions OÜ (https://novu.ee)",
+  "license": "MIT"
+}
